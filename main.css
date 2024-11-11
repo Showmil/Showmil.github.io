@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+    background: #ffffff;
+    background: linear-gradient(to top, #ffffff, #abe9ff, #2980b9);
+    min-height: 100vh;
+    text-align: center;
+    font-family: "Do Hyeon";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Education {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Tech {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Img{
+    margin: 0 auto;
+    box-shadow: 0 30px 50px #505050;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Text {
+    font-size: 30px;
+}
